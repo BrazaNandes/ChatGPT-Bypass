@@ -1,4 +1,5 @@
 $input = $args[0]
+$input = $args -join " "
 Write-Host "`n[+] Input: $input"
 Write-Host "`n[+] Output:"
 
